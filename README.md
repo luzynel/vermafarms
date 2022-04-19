@@ -21,6 +21,7 @@ SASS > common_footer.scss - this sass file contains all the css settings related
 SASS > style.scss - this sass file contains all imported sass file from each sass folders.
 
 
+
 Class naming convention is based on a BEM principles.
 
 Reference: https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
