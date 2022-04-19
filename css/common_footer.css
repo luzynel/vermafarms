@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Tisa Sans Pro';
+  src: url(../font/TisaSansPro_B.woff);
+  font-weight: 900; }
+@font-face {
+  font-family: 'Tisa Sans Pro';
+  src: url(../font/TisaSansPro_EB.woff);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Tisa Sans Pro';
+  src: url(../font/TisaSansPro_M.woff);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Tisa Sans Pro';
+  src: url(../font/TisaSansPro_R.woff);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Tisa Sans Pro';
+  src: url(../font/TisaSansPro_L.woff);
+  font-weight: 400; }
+/* Font Family */
+/* Color Pallete */
+/* Font Sizes */
+/* Spacing */
+/* Breakpoint */
+/* Desktop First */
+/*----------------------------------------------
+	Footer
+---------------------------------------------*/
+.p_footer {
+  background: #3c562c;
+  padding: 50px 0; }
+  .p_footer__nav {
+    display: flex;
+    justify-content: space-around; }
+    .p_footer__nav li a {
+      color: #FFF; }
+    .p_footer__nav.is_small {
+      font-size: 15px;
+      letter-spacing: -0.29px;
+      justify-content: center;
+      gap: 0 20px; }
+      .p_footer__nav.is_small li a {
+        opacity: 0.6; }
+  .p_footer__logo {
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center; }
+    .p_footer__logo img {
+      width: 100%; }
+
+.p_prefooter {
+  margin-left: -50px;
+  width: calc(100% + 100px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .p_prefooter img {
+    width: 100px;
+    display: block;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=common_footer.css.map */
