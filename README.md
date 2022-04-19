@@ -16,3 +16,9 @@ SASS > component - this folder contains all the css that are reusable parts of t
 SASS > frame - this folder contains the css settings related to default dimension of width sizes, backgrounds, paddings of a parent frame of the website sections/parts.
 
 SASS > project - this folder contains all the css files of unique parts of the websites like thumbnails, gallery, testimonials and etc.
+
+SASS > common_header.scss - this sass file contains all the css settings related to the header part of the website such as logo, top navigation, hamburger and etc.
+
+SASS > common_footer.scss - this sass file contains all the css settings related to the footer part of the website such as logo, footer menu navigation, contact details and etc.
+
+SASS > style.scss - this sass file contains all imported sass file from each sass folders.
