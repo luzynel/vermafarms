@@ -1,8 +1,10 @@
 # vermafarms
 
 Tools: HTML5, CSS3, SASS, Jquery
+
 This project is an organized SASS modular Architecture. It is more of a CSS file structure and useful for a large project with multiple developers working on it. 
 Class naming convention is also based on a BEM arrangement.
+
 Reference: https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 
 Folder:
