@@ -21,7 +21,7 @@ SASS > common_footer.scss - this sass file contains all the css settings related
 SASS > style.scss - this sass file contains all imported sass file from each sass folders.
 
 
-Class naming convention is also based on a BEM arrangement.
+Class naming convention is also based on a BEM principles.
 Reference: https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 Examples:
 .block {}
@@ -30,3 +30,5 @@ Examples:
 
 For this project, my class naming uniformity are based on which sass folder this part belongs to. 
 For example: A button, this part belongs to component folder because it is reusable to entire website. Class name should start with "c_" (stands for component folder) and connect to a unique name like "btn". So the outcome should be class="c_btn".
+
+It is a smart way of naming your CSS classes to give them more transparency and meaning to other developers. They are far more strict and informative, which makes the BEM naming convention ideal for teams of developers on larger projects that might last a while.
