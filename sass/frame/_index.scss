@@ -1,0 +1,49 @@
+/*----------------------------------------------
+	Frame Site
+---------------------------------------------*/
+.f_page {
+	position: relative;
+}
+
+/*----------------------------------------------
+	Frame Sections
+---------------------------------------------*/
+.f_section6 {
+	padding: 200px 0;
+	background: rgb(252,244,239);
+	background: linear-gradient(180deg, rgba(252,244,239,1) 0%, rgba(255,255,255,1) 100%);
+}
+.f_section7 {
+	background: #FAEAD8;
+}
+.f_section8 {
+	background: rgb(252,244,239);
+	background: linear-gradient(180deg, rgba(252,244,239,1) 0%, rgba(255,255,255,1) 100%);
+}
+.f_section9 {
+	background: #edd3c1;
+	padding: 40px 0;
+}
+.f_container {
+	max-width: $site-wide;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.f_section__card {
+	.c_ttl {
+		text-align: left;
+	}
+	.f_container {
+		padding: 0 50px;
+	}
+	.c_content {
+		text-align: left;
+		max-width: 100%;
+	}
+	.c_btn {
+		margin-left: 0;
+    margin-top: 40px;
+	}
+}
+

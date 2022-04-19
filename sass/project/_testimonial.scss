@@ -1,0 +1,76 @@
+/*----------------------------------------------
+	.p_testimonial
+---------------------------------------------*/
+.p_testimonial {	
+	margin-left: -60px;
+	width: calc(100% + 120px);
+	overflow: hidden;
+	overflow-x: scroll;
+	padding: 10px;
+	&__wrap {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0 25px;
+		padding-bottom: 20px;
+		width: 2520px;
+	}
+	&__box {
+		width: 396px;
+		background: rgba(#EEE6E6, 0.51);
+		border-radius: 29px;
+		position: relative;
+		padding: 80px 40px 30px;
+		&::before {
+			position: absolute;
+			content: '';
+			width: 50px;
+			height: 34px;
+			background: url(../img/quotations.png) no-repeat;
+			background-size: 100% 100%;
+			top: -3px;
+			left: -5px;
+		}
+		&::after {
+			position: absolute;
+			content: '';
+			width: 50px;
+			height: 34px;
+			background: url(../img/quotations.png) no-repeat;
+			background-size: 100% 100%;
+			bottom: -3px;
+			right: -5px;
+			-webkit-transform: scaleX(-1);
+  		transform: scaleX(-1);
+		}
+		img {
+			display: block;
+			margin: 0 auto 35px;
+		}
+		h3 {
+			font-weight: 500;
+			font-size: $fs-area-md;
+			color: $color-green;
+			text-align: center;
+		}
+		p {
+			color: $color-brown;
+			letter-spacing: -0.35px;
+			text-align: center;
+			margin: 15px 0;
+		}
+	}
+	&__name {
+		margin-top: 40px;
+		text-align: center;
+		font-weight: 600;
+		color: $color-green;
+		font-size: $fs-area-xxs;
+		letter-spacing: -0.29px;
+		img {
+			width: 65px;
+			margin: 0 auto 30px;
+			display: block;
+		}
+	}
+}

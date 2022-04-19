@@ -1,0 +1,23 @@
+/*----------------------------------------------
+	.p_gummies
+---------------------------------------------*/
+.p_gummies {
+	background: #FAEAD8;
+	position: relative;
+	overflow: hidden;
+	padding: 200px 0;
+	&__bg1 {
+		position: absolute;
+		top: 0;
+		left: -20px;
+	}
+	&__bg2 {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+	&__img {
+		float: left;
+		margin-left: -50px;
+	}
+}

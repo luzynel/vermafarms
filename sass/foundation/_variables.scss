@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Tisa Sans Pro';
+	src: url(../font/TisaSansPro_B.woff);
+	font-weight: 900;
+}
+@font-face {
+  font-family: 'Tisa Sans Pro';
+	src: url(../font/TisaSansPro_EB.woff);
+	font-weight: 700;
+}
+@font-face {
+  font-family: 'Tisa Sans Pro';
+	src: url(../font/TisaSansPro_M.woff);
+	font-weight: 600;
+}
+@font-face {
+  font-family: 'Tisa Sans Pro';
+	src: url(../font/TisaSansPro_R.woff);
+	font-weight: 500;
+}
+@font-face {
+  font-family: 'Tisa Sans Pro';
+	src: url(../font/TisaSansPro_L.woff);
+	font-weight: 400;
+}
+
+/* Font Family */
+$font-main: 'Tisa Sans Pro', sans-serif;
+// $font-body: 'Fresca', sans-serif;
+
+/* Color Pallete */
+$color-primary: #F6914E;
+$color-secondary: #443636;
+$color-green: #3c562c;
+$color-gray: #aea3a0;
+$color-lightgray: #998C7A;
+$color-white: #FFF;
+$color-light: #FCF4EF;
+$color-brown: #A7836D;
+
+/* Font Sizes */
+$fs-area-xxl: 49px;
+$fs-area-xl: 40px;
+$fs-area-lg: 21px;
+$fs-area-md: 21px;
+$fs-area-base: 18px;
+$fs-area-sm: 17px;
+$fs-area-xs: 16px;
+$fs-area-xxs: 15px;
+
+/* Spacing */
+$space-s: 1rem * 0.001 * 50;
+$space-m: 1rem * 0.001 * 75;
+$space-l: 1rem * 0.001 * 100;
+
+/* Breakpoint */
+$site-wide: 1190px;
+
+/* Desktop First */
+$site-xl: 1399px;
+$site-lg: 1199px;
+$site-md: 991px;
+$site-sm: 767px;
+$site-xs: 575px;
+
+
+
+

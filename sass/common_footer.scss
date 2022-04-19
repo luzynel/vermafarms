@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@import "foundation/variables";
+
+/*----------------------------------------------
+	Footer
+---------------------------------------------*/
+.p_footer {
+  background: $color-green;
+  padding: 50px 0;
+  &__nav {
+    display: flex;
+    justify-content: space-around;
+    li a {
+      color: $color-white;
+    }
+    &.is_small {
+      font-size: $fs-area-xxs;
+      letter-spacing: -0.29px;
+      justify-content: center;
+      gap: 0 20px;
+      li a {
+        opacity: 0.6;
+      }
+    }
+  }
+  &__logo {
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.p_prefooter {
+  margin-left: -50px;
+  width: calc(100% + 100px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+}

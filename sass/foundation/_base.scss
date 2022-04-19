@@ -1,0 +1,159 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  image-rendering: -webkit-optimize-contrast;
+  margin: 0;
+}
+
+*:focus { outline: none; }
+
+
+
+/*----------------------------------------------
+	html
+---------------------------------------------*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-text-size-adjust: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/*----------------------------------------------
+	body
+---------------------------------------------*/
+body {
+  font-family: $font-main;
+  font-size: $fs-area-base;
+  font-weight: 300;
+  line-height: normal;
+  text-rendering: optimizeLegibility;  
+  color: $color-secondary;
+}
+
+/*----------------------------------------------
+	a
+---------------------------------------------*/
+a {
+  text-decoration: none;
+  color: $color-secondary;
+}
+a:visited {  }
+a:hover,
+a:active,
+a:focus { 
+  text-decoration: none;
+  opacity: 0.8; 
+}
+
+/*----------------------------------------------
+	table
+---------------------------------------------*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*----------------------------------------------
+	section
+---------------------------------------------*/
+
+section {
+	padding:100px 0;
+}
+
+@media screen and (max-width: $site-sm) {
+  section {
+    padding:50px 20px;
+  }
+}

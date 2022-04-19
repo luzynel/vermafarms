@@ -1,0 +1,24 @@
+/*----------------------------------------------
+	.c_ttl
+---------------------------------------------*/
+.c_ttl {
+	color: $color-secondary;
+	font-size: $fs-area-xl;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: center;
+	small {
+		font-size: $fs-area-md;
+		color: $color-lightgray;
+		display: block;
+		font-weight: 500;
+	}
+	&.is_large {
+		font-size: $fs-area-xxl;
+		font-weight: 900;
+		line-height: 1.1;
+		letter-spacing: -0.98px;
+		margin-bottom: 0;
+		text-align: left;
+	}
+}

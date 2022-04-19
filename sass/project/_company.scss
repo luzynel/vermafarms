@@ -1,0 +1,48 @@
+/*----------------------------------------------
+	.p_company
+---------------------------------------------*/
+.p_company {	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	&__column {
+		display: flex;
+		flex-direction: column;
+		gap: 120px 0;
+	}
+	&__box {
+		position: relative;
+		width: 325px;
+		text-align: center;
+		color: $color-brown;
+		padding-top: 50px;
+		&::before {
+			position: absolute;
+			content: '';
+			width: 35px;
+			height: 24px;
+			background: url(../img/quotations.png) no-repeat;
+			background-size: 100% 100%;
+			top: 0;
+			left: calc(50% - 18px);
+		}
+		img {
+			display: block;
+			margin: 20px auto 0;
+		}
+		p {
+			font-weight: 500;
+			color: $color-secondary;
+			font-size: $fs-area-md;
+		}
+	}
+	&__slider {
+		// flex: 1;
+	}
+	&__wrap {
+		width: 400px;
+		img {
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,57 @@
+/*----------------------------------------------
+	.p_about
+---------------------------------------------*/
+.p_about {
+	background: $color-white;
+	h2 img {
+		display: block;
+		margin: 0 auto 12px;
+	}
+	&__content {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 60px 0;
+	}
+	&__column {
+		display: flex;
+		flex-direction: column;
+		gap: 100px 0;
+	}
+	&__box {
+		width: 300px;
+		text-align: center;
+		color: $color-brown;
+		h3 {
+			font-weight: 600;
+			font-size: $fs-area-sm;
+			letter-spacing: 0.41px;
+			color: $color-secondary;
+			margin: 15px 0;
+			padding-bottom: 10px;
+			position: relative;
+			&::after {
+				position: absolute;
+				content: '';
+				width: 200px;
+				height: 2px;
+				background: $color-primary;
+				bottom: 0;
+				left: calc(50% - 100px);
+			}
+		}
+	}
+	&__slider {
+		// flex: 1;
+	}
+	&__wrap {
+		width: 400px;
+		height: 400px;
+		position: relative;
+		img {
+			width: 100%;
+			position: absolute;
+			top: 0;
+		}
+	}
+}
