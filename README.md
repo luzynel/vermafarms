@@ -21,11 +21,16 @@ SASS > common_footer.scss - this sass file contains all the css settings related
 SASS > style.scss - this sass file contains all imported sass file from each sass folders.
 
 
-Class naming convention is also based on a BEM principles.
+Class naming convention is based on a BEM principles.
+
 Reference: https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+
 Examples:
+
 .block {}
+
 .block__element {}
+
 .block--modifier {}
 
 For this project, my class naming uniformity are based on which sass folder this part belongs to. 
